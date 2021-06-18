@@ -1,0 +1,211 @@
+body {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0;
+
+}
+
+body, html {
+  height: 100%;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=text] {
+  border-radius: 5px;
+  
+}
+
+textarea {
+  resize: vertical;
+  width: 50%;
+  height: 100px;
+}
+
+input[type=text], select {
+  width: 25%;
+}
+
+.post {
+  background-color: rgb(161, 161, 161);
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  padding-top: 0;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
+
+.title {
+  background-color: rgb(161, 161, 161);
+  font-size: 35px;
+}
+
+.content {
+  font-size: 20px;
+}
+
+.comment {
+  background-color: rgb(204, 204, 204);
+  display: inline-block;
+  padding: 10px;
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+}
+
+.comment2 {
+  background-color: rgb(161, 161, 161);
+  display: none;
+  padding: 10px;
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+}
+
+.reply {
+  text-align: right;
+  color: rgb(38, 0, 255);
+  display: inline-block;
+  margin-left: 90%;
+}
+
+.reply:hover {
+  cursor: pointer;
+}
+
+#header {
+  background-color: rgb(17, 0, 255);
+  text-align: left;
+  padding: 1px;
+  padding-left: 10px;
+  margin: 0;
+  margin-bottom: 0px; 
+}
+
+#logo {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  
+}
+
+.title2 {
+  color: white;
+}
+
+li a {
+  background-color: rgb(55, 0, 158);
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+}
+li {
+  padding: 15px;
+}
+
+table {
+  background-color: rgb(55, 0, 158);
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+tr {
+}
+td {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+td a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/Images/coding2.webp");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#caption1 {
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  text-align: left;
+  margin: 10px;
+  background-color: gray;
+  display: inline-block;
+  margin-right: 50%;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+#caption2 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+  background-color: gray;
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 20%;
+  padding: 20px;
+}
+
+#searchForm {
+   display: inline-flex;
+   float: right;
+   margin: 20px;
+   margin-top: 30px;
+}
+
+#searchForm input[type=text] {
+  padding: 6px;
+  border: none;
+  margin-top: 0px;
+  margin-right: 5px;
+  font-size: 15px;
+  height: 15px;
+  width: 200px;
+}
+
+#searchForm input[type=submit] {
+  background-image: url("/Images/search.png");
+  height: 30px;
+  width: 30px;
+  margin-top: 0px;
+  margin-right: 5px;
+  background-size: cover;
+}
+
+.like {
+  text-align: left;
+  display: inline-block;
+  color: red;
+}
+
+.like:hover {
+  cursor: pointer;
+}
+
+.likes {
+  text-align: left;
+}
